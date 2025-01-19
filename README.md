@@ -1,5 +1,5 @@
 
-# ![AgentNovaX Banner](https://raw.githubusercontent.com/agentnovax/www.agentnovax.com/main/assets/banners/AgentNovaX-Banner.png)
+# <img src="https://raw.githubusercontent.com/agentnovax/www.agentnovax.com/main/assets/banners/AgentNovaX-Banner.png" alt="AgentNovaX Banner" height="300" width="100%">
 
 ---
 
@@ -7,7 +7,7 @@
 
 Welcome to **AgentNovaX**! 🌍✨
 
-At [AgentNovaX](https://agentnovax.com/), our vision is to create a world where **innovation**, **collaboration**, **technology**, and **sustainability** work hand-in-hand to empower communities. We aim to provide tools that **simplify tasks**, **increase productivity**, and contribute to a **better planet**. Through **creativity**, **inclusivity**, and **environmental consciousness**, we strive to inspire a global movement toward shared success and continuous growth. 🌱💡
+At [AgentNovaX](https://www.agentnovax.com/), our vision is to create a world where **innovation**, **collaboration**, **technology**, and **sustainability** work hand-in-hand to empower communities. We aim to provide tools that **simplify tasks**, **increase productivity**, and contribute to a **better planet**. Through **creativity**, **inclusivity**, and **environmental consciousness**, we strive to inspire a global movement toward shared success and continuous growth. 🌱💡
 
 ---
 
