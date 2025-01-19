@@ -11,9 +11,9 @@ At [AgentNovaX](https://www.agentnovax.com/), our vision is to create a world wh
 
 ---
 
-## **AgentNovaXSpringAuthAPI** - Spring Boot Project with PostgreSQL and Firebase Authentication 🚀
+## **AgentNovaXSpringFirebaseAuthAPI** - Spring Boot Project with PostgreSQL and Firebase Authentication 🚀
 
-**NovaAuthAPI** is a robust **Spring Boot API application** that integrates **Firebase Authentication** and **PostgreSQL** to provide secure and scalable user authentication solutions. The project supports seamless user registration, validation of Firebase ID tokens, and integrates with multiple authentication providers like **Google**, **Microsoft**, **Apple**, and **Facebook**. Additionally, it includes **JWT token generation** for secure session management, offering a simple yet powerful solution for building modern authentication systems.
+**AgentNovaXSpringFirebaseAuthAPI** is a robust **Spring Boot API application** that integrates **Firebase Authentication** and **PostgreSQL** to provide secure and scalable user authentication solutions. The project supports seamless user registration, validation of Firebase ID tokens, and integrates with multiple authentication providers like **Google**, **Microsoft**, **Apple**, and **Facebook**. Additionally, it includes **JWT token generation** for secure session management, offering a simple yet powerful solution for building modern authentication systems.
 
 Perfect for developers looking to integrate **Firebase authentication** into their **Spring Boot** applications with **PostgreSQL** as the backend data store, providing a complete **OAuth solution**.
 
@@ -182,3 +182,40 @@ Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/
 ## Contact 📧
 
 For any queries, feel free to reach out via [agentnovaxp@gmail.com](mailto:agentnovaxp@gmail.com).
+
+---
+
+## Follow AgentNovaX 🌍
+
+Stay connected with **AgentNovaX** through our social media channels:
+
+- [X (Twitter)](https://twitter.com/agentnovax) 🐦
+- [LinkedIn](https://linkedin.com/company/agentnovax) 🔗
+- [Instagram](https://www.instagram.com/agentnovax/) 📸
+- [Facebook](https://www.facebook.com/profile.php?id=61571252049491) 📘
+- [YouTube](https://www.youtube.com/@agentnovaxp) 🎥
+
+---
+
+## NovaLeaf Concept 🌱
+
+**NovaLeaf** is an initiative focused on environmental sustainability, aiming to contribute to a greener planet. Through this initiative, **AgentNovaX** is committed to planting trees, fostering green projects, and encouraging eco-friendly practices among individuals and communities.
+
+- **Plant a Tree, Empower a Community**: For every milestone achieved in our platform, a tree will be planted in a designated area.
+- **Green Nova Trees**: These trees represent our growth and commitment to sustainability, and each one is named for the cause it supports.
+- **Join the Movement**: Become part of the **NovaLeaf** family and help us plant the future, one tree at a time. 🌳
+
+🌟 **Please consider starring this repository to support the NovaLeaf initiative** 🌟
+
+For more information, visit [NovaLeaf](https://novaleaf.agentnovax.com).
+
+---
+
+## DataFlux 🔄
+
+**DataFlux** provides free tools for data conversion, JSON/YAML beautification, and validation to help developers and data enthusiasts streamline their workflow.
+
+- Tools available: JSON/YAML Beautifiers and Validators, JSON/YAML conversion, Text Compare, JavaScript Validators, and more.
+- Visit [DataFlux](https://www.dataflux.agentnovax.com) to explore our tools and enhance your productivity.
+
+---
