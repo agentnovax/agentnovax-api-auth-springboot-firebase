@@ -11,9 +11,9 @@ At [AgentNovaX](https://www.agentnovax.com/), our vision is to create a world wh
 
 ---
 
-## **AgentNovaXSpringFirebaseAuthAPI** - Spring Boot Project with PostgreSQL and Firebase Authentication 🚀
+## **AgentNovaX-SpringFirebaseAuthAPI** - Spring Boot Project with PostgreSQL and Firebase Authentication 🚀
 
-**AgentNovaXSpringFirebaseAuthAPI** is a robust **Spring Boot API application** that integrates **Firebase Authentication** and **PostgreSQL** to provide secure and scalable user authentication solutions. The project supports seamless user registration, validation of Firebase ID tokens, and integrates with multiple authentication providers like **Google**, **Microsoft**, **Apple**, and **Facebook**. Additionally, it includes **JWT token generation** for secure session management, offering a simple yet powerful solution for building modern authentication systems.
+**AgentNovaX-SpringFirebaseAuthAPI** is a robust **Spring Boot API application** that integrates **Firebase Authentication** and **PostgreSQL** to provide secure and scalable user authentication solutions. The project supports seamless user registration, validation of Firebase ID tokens, and integrates with multiple authentication providers like **Google**, **Microsoft**, **Apple**, and **Facebook**. Additionally, it includes **JWT token generation** for secure session management, offering a simple yet powerful solution for building modern authentication systems.
 
 Perfect for developers looking to integrate **Firebase authentication** into their **Spring Boot** applications with **PostgreSQL** as the backend data store, providing a complete **OAuth solution**.
 
@@ -216,6 +216,6 @@ For more information, visit [NovaLeaf](https://novaleaf.agentnovax.com).
 **DataFlux** provides free tools for data conversion, JSON/YAML beautification, and validation to help developers and data enthusiasts streamline their workflow.
 
 - Tools available: JSON/YAML Beautifiers and Validators, JSON/YAML conversion, Text Compare, JavaScript Validators, and more.
-- Visit [DataFlux](https://www.dataflux.agentnovax.com) to explore our tools and enhance your productivity.
+- Visit [DataFlux](https://dataflux.agentnovax.com) to explore our tools and enhance your productivity.
 
 ---
