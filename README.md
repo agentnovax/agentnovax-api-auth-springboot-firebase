@@ -199,7 +199,8 @@ Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/
 
 ## Contact 📧
 
-For any queries, feel free to reach out via [agentnovaxp@gmail.com](mailto:agentnovaxp@gmail.com).
+For any queries, feel free to reach out via  
+![wecare@agentnovax.com](https://raw.githubusercontent.com/agentnovax/www.agentnovax.com/main/assets/icons/agentnovax-email.png)
 
 ---
 
