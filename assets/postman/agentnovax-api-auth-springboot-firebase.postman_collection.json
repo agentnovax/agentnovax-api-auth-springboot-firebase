@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "cc4c19ae-4b26-4651-9ad1-8bcedcee86a9",
+		"name": "agentnovax-api-auth-springboot-firebase.postman_collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39166996",
+		"_collection_link": "https://mat888-6619.postman.co/workspace/MAT-Workspace~9dcaa9e6-2d24-46a1-87eb-f6dcb637543d/collection/39166996-cc4c19ae-4b26-4651-9ad1-8bcedcee86a9?action=share&source=collection_link&creator=39166996"
+	},
+	"item": [
+		{
+			"name": "login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Example: If your response JSON contains a field \"token\"\r",
+							"let jsonResponse = pm.response.json();\r",
+							"\r",
+							"// Save values from the response into environment variables\r",
+							"pm.environment.set(\"ANX_TOKEN\", jsonResponse.data.token); // Store token\r",
+							"pm.environment.set(\"ANX_SESSION\", jsonResponse.data.session); // Store user ID\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"// Firebase API URL and Credentials\r",
+							"const firebaseApiUrl = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyA21-JCAR0J4K5esr4Qf3hSMm0UEqz06fQ';\r",
+							"\r",
+							"// Set up the credentials for the sign-in request\r",
+							"const email = '<your_user>'; // Replace with your user email\r",
+							"const password = '<your_password>';  // Replace with your user password\r",
+							"\r",
+							"// Set up the request payload\r",
+							"const requestBody = {\r",
+							"    email: email,\r",
+							"    password: password,\r",
+							"    returnSecureToken: true\r",
+							"};\r",
+							"\r",
+							"// Send the request to Firebase Authentication to get the ID token\r",
+							"pm.sendRequest({\r",
+							"    url: firebaseApiUrl,\r",
+							"    method: 'POST',\r",
+							"    header: {\r",
+							"        'Content-Type': 'application/json',\r",
+							"        'Authorization': pm.environment.get('FIREBASE_AUTH_TOKEN')\r",
+							"    },\r",
+							"    body: {\r",
+							"        mode: 'raw',\r",
+							"        raw: JSON.stringify(requestBody)\r",
+							"    }\r",
+							"}, function (err, res) {\r",
+							"    if (err) {\r",
+							"        // Handle error if authentication fails\r",
+							"        console.error('Error during Firebase sign-in request:', err);\r",
+							"    } else {\r",
+							"        // Parse the response to get the ID token\r",
+							"        const responseJson = res.json();\r",
+							"\r",
+							"        // Check if ID token is available in response\r",
+							"        if (responseJson.idToken) {\r",
+							"            // Save the ID token as an environment variable\r",
+							"            pm.environment.set('FIREBASE_AUTH_TOKEN', responseJson.idToken);\r",
+							"            console.log('Firebase ID Token:', responseJson.idToken);\r",
+							"        } else {\r",
+							"            // If ID token is not in the response, handle the error\r",
+							"            console.error('No ID token returned:', responseJson);\r",
+							"        }\r",
+							"    }\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{FIREBASE_AUTH_TOKEN}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{HOST}}/{{CONTEXT}}/{{DOMAIN}}/login",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"{{CONTEXT}}",
+						"{{DOMAIN}}",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{KW_TOKEN}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

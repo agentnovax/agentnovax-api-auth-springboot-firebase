@@ -11,9 +11,9 @@ At [AgentNovaX](https://www.agentnovax.com/), our vision is to create a world wh
 
 ---
 
-## **AgentNovaXSpringFirebaseAuthAPI** - Spring Boot Project with PostgreSQL and Firebase Authentication 🚀
+## **AgentNovaX-SpringFirebaseAuthAPI** - Spring Boot Project with PostgreSQL and Firebase Authentication 🚀
 
-**AgentNovaXSpringFirebaseAuthAPI** is a robust **Spring Boot API application** that integrates **Firebase Authentication** and **PostgreSQL** to provide secure and scalable user authentication solutions. The project supports seamless user registration, validation of Firebase ID tokens, and integrates with multiple authentication providers like **Google**, **Microsoft**, **Apple**, and **Facebook**. Additionally, it includes **JWT token generation** for secure session management, offering a simple yet powerful solution for building modern authentication systems.
+**AgentNovaX-SpringFirebaseAuthAPI** is a robust **Spring Boot API application** that integrates **Firebase Authentication** and **PostgreSQL** to provide secure and scalable user authentication solutions. The project supports seamless user registration, validation of Firebase ID tokens, and integrates with multiple authentication providers like **Google**, **Microsoft**, **Apple**, and **Facebook**. Additionally, it includes **JWT token generation** for secure session management, offering a simple yet powerful solution for building modern authentication systems.
 
 Perfect for developers looking to integrate **Firebase authentication** into their **Spring Boot** applications with **PostgreSQL** as the backend data store, providing a complete **OAuth solution**.
 
@@ -137,7 +137,25 @@ security.jwt.secret-key=<your-jwt-secret>
 
 ## API Usage 📡
 
-Import the **Postman collection** and environment to test the login API. Use **username** and **password** in the pre-request script for login.
+### API Testing with Postman 🛠️
+
+This project comes with a **Postman collection** inside **assets/postman** to easily test the API endpoints. You can import the `agentnovax-api-auth-springboot-firebase.postman_collection` along with `agentnovax-api-auth-springboot-firebase-IN_local.postman_environment` into your **Postman** application to start testing the authentication flows.
+
+### How to Use the Postman Collection
+
+1. **Download the Postman Collection**:  
+   Download the `agentnovax-api-auth-springboot-firebase.postman_collection` from the repository.
+
+2. **Import into Postman**:  
+   Open Postman and click on the "Import" button on the top left. Select the downloaded collection file and import it into Postman.
+
+3. **Set Up Environment**:  
+   Collection includes an environment file `agentnovax-api-auth-springboot-firebase-IN_local.postman_environment`, import it into Postman to configure variables such as `HOST`, `CONTEXT` and `DOMAIN`. This will allow you to test the endpoints efficiently.
+
+4. **Test API Endpoints**:  
+   Once imported, you can start testing the **login** endpoint provided by the API. Make sure to provide the correct `email` and `password` in the pre-request script for login.
+
+This collection simplifies testing the API without needing to manually craft requests and responses.
 
 ---
 
@@ -216,6 +234,6 @@ For more information, visit [NovaLeaf](https://novaleaf.agentnovax.com).
 **DataFlux** provides free tools for data conversion, JSON/YAML beautification, and validation to help developers and data enthusiasts streamline their workflow.
 
 - Tools available: JSON/YAML Beautifiers and Validators, JSON/YAML conversion, Text Compare, JavaScript Validators, and more.
-- Visit [DataFlux](https://www.dataflux.agentnovax.com) to explore our tools and enhance your productivity.
+- Visit [DataFlux](https://dataflux.agentnovax.com) to explore our tools and enhance your productivity.
 
 ---
