@@ -204,15 +204,17 @@ For any queries, feel free to reach out via
 
 ---
 
-## Follow AgentNovaX 🌍
+- ## 📬 Stay Connected
 
-Stay connected with **AgentNovaX** through our social media channels:
-
-- [X (Twitter)](https://twitter.com/agentnovax) 🐦
-- [LinkedIn](https://linkedin.com/company/agentnovax) 🔗
-- [Instagram](https://www.instagram.com/agentnovax/) 📸
-- [Facebook](https://www.facebook.com/profile.php?id=61571252049491) 📘
-- [YouTube](https://www.youtube.com/@agentnovaxp) 🎥
+- Website: [AgentNovaX Platform](https://agentnovax.com)  
+- Social Media:
+  - [YouTube](https://www.youtube.com/@agentnovaxp)
+  - [Instagram](https://www.instagram.com/agentnovax/)
+  - [X (formerly Twitter)](https://x.com/agentnovax)
+  - [Facebook](https://www.facebook.com/profile.php?id=61571252049491)
+  - [GitHub](https://github.com/agentnovax/)
+  - [LinkedIn](https://www.linkedin.com/company/agentnovax/)
+  - [Discord](https://discord.gg/GDPE6YSJ)
 
 ---
 
@@ -238,3 +240,8 @@ For more information, visit [NovaLeaf](https://novaleaf.agentnovax.com).
 - Visit [DataFlux](https://dataflux.agentnovax.com) to explore our tools and enhance your productivity.
 
 ---
+
+## Disclaimer
+
+The **AgentNovaX Assets Repository** is provided "as-is," without warranty of any kind, express or implied. AgentNovaX does not guarantee the accuracy or completeness of the content in this repository. By accessing and using these assets, you agree that AgentNovaX is not liable for any loss, damage, or legal issues arising from the use of these resources. Users are encouraged to review and validate the content independently before applying it to their own projects.
+
